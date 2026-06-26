@@ -1,0 +1,37 @@
+name: quicks
+description: Quicks — a microlearning card feed and knowledge graph.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State management (per PRD)
+  flutter_riverpod: ^2.5.1
+
+  # Routing
+  go_router: ^14.2.0
+
+  # Networking
+  dio: ^5.7.0
+
+  # Typography (Playfair Display / Jost / JetBrains Mono — no font files to bundle)
+  google_fonts: ^6.2.1
+
+  # Images + persistence + motion
+  cached_network_image: ^3.4.1
+  shared_preferences: ^2.3.2
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
